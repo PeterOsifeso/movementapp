@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Your Moving Companion</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h2 id="greeting" class="greeting row">Where would you like to live?</h2>
+
+    	<hr>
+
+    	<form id="form-container" class="form-container container">
+
+            <div class="container locationbox">
+                <div class="label">
+                    <label for="street">Street </label>
+                </div>
+
+                <div class="myinput">
+                    <input type="text" id="street" value="">
+                </div>
+            </div>
+
+             <div class="container locationbox">
+                <div class="label">
+                    <label for="city">City </label>
+                </div>
+                <div class="myinput">
+                    <input type="text" id="city" value="">
+                </div>
+            </div>
+            <div class="submit">
+                <button id="submit-btn">Submit</button>
+            </div>
+        </form>
+
+    	<p></p>
+
+        <div class="information">
+            <div class="wikipedia-container">
+                <h3 id="wikipedia-header">Relevant Wikipedia Links</h3>
+                <ul id="wikipedia-links">Type in an address above and find relevant Wikipedia articles here!</ul>
+            </div>
+
+
+            <div class="nytimes-container">
+                <h3 id="nytimes-header">New York Times Articles</h3>
+                <ul id="nytimes-articles" class="article-list">What's going on in your new city? Enter an address and hit submit and the NY Times will tell you here!</ul>
+            </div>
+        </div>
+
+
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
