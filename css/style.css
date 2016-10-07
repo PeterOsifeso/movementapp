@@ -1,0 +1,161 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis';
+</style>
+* {box-sizing:border-box;}
+
+h1,h2,h3,h4,p,label,button{
+    font-family: 'Dosis', sans-serif;
+}
+body {
+    background-color: #00FF7F;
+}
+.row{
+    width:100%;
+    max-width: 100%;
+}
+hr{
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bgimg {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index:-1;
+    opacity:1;
+    min-width: 100%;
+    min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+}
+
+.greeting {
+    color:black;
+    text-shadow: 1px 1px 3px rgba(255,255,255, .5);
+    text-align: center;
+}
+
+.wikipedia-container {
+    float:right;
+    width:290px;
+    padding:10px;
+    margin-right: 10px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.nytimes-container {
+    padding: 10px;
+    margin-right:300px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.article-list {
+    margin: 0;
+    padding: 0;
+}
+
+.article {
+    list-style-type: none;
+    padding:10px;
+    border-top: 1px solid #CCC;
+}
+.article:first-child {
+    border-top:none;
+}
+
+input{
+        width: 100%;
+        height:40px;
+    }
+    .label{
+        //width:15%;
+        padding-right: 5px;
+    }
+    .myinput{
+        width: 70%;
+    }
+    .form-container{
+        width: 100%;
+    }
+    .locationbox{
+        width:45%;
+        padding-right: 0px;
+    }
+     #submit-btn{
+        width: 100%;
+        height:40px;
+    }
+    label{
+        font-size: 30px;
+    }
+    .submit{
+        padding-top: 0;
+        width:10%;
+        padding-bottom: 10px;
+        //position: relative;
+    }
+    .nytimes-container{
+        width: 60%;
+    }
+    .wikipedia-container{
+        width: 36%;
+        padding:0;
+    }
+    .information{
+        width: 100%;
+    }
+
+@media (max-width: 640px) {
+    .greeting{
+        //font-size: 50px;
+    }
+    .form-container{
+        //font-size: 40px;
+    }
+    input{
+        width: 100%;
+        height:40px;
+    }
+    .label{
+        width:25%;
+        padding-bottom: 10px;
+    }
+    .myinput{
+        width: 70%;
+        padding-bottom: 10px;
+    }
+    .locationbox{
+        width:100%;
+    }
+    #submit-btn{
+        width: 20%;
+        height:40px;
+    }
+    .submit{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width:100%;
+        position: relative;
+    }
+    .nytimes-container{
+        width: 100%;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .wikipedia-container{
+        float: none;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+}
